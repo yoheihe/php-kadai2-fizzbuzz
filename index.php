@@ -30,11 +30,11 @@
             $buzzNum = (int)$buzzNum;
             
             for ($i = 1; $i < 100; $i++) {
-                if ($i % $fizzNum == 0 && $i % $buzzNum == 0) {
+                if ($i % $fizzNum === 0 && $i % $buzzNum === 0) {
                     echo "<p>$i: fizzBuzz</p>";
-                } elseif ($i % $fizzNum == 0) {
+                } elseif ($i % $fizzNum === 0) {
                     echo "<p>$i: fizz</p>";
-                } elseif ($i % $buzzNum == 0) {
+                } elseif ($i % $buzzNum === 0) {
                     echo "<p>$i: buzz</p>";
                 }
             }
